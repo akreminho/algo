@@ -1,0 +1,27 @@
+//déclaration des variables:
+lengths := 0
+wordCounts := 0
+vowelCounts := 0
+
+for (i:=0 ; i<=sentence.length ; i++)) DO
+    c := sentence [i]
+    IF (c == '.') THEN
+        lengths := lengths+1
+    Else If
+	(c == ' ') Then
+	wordCount := wordCount + 1
+ 
+    Else if
+     c == ['a', 'e' , 'i', 'o' ,'u'] Then
+        vowelCounts := vowelCounts + 1
+
+else 
+word_count := word_count + 1;
+end for
+OUTPUT("Length of sentence: ", lengths)
+OUTPUT("Number of words: ", wordCounts + 1)
+OUTPUT("Number of vowels: ", vowelCounts)
+
+
+
+
